@@ -31,3 +31,8 @@ class Game
     end
   end
 end
+
+if __FILE__ == $PROGRAM_NAME
+  game = Game.new()
+  # file_shuffle
+end
