@@ -3,6 +3,7 @@ require "battleship"
 require "board"
 require "player"
 
+
 describe BattleshipGame do
   let(:two_ship_grid) { [[:s, :s], [nil, nil]] }
   let(:two_ship_board) { Board.new(two_ship_grid) }

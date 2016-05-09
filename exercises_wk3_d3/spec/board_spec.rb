@@ -2,6 +2,7 @@ require "rspec"
 require "board"
 require "byebug"
 
+
 describe Board do
   subject(:board) { Board.new }
 
